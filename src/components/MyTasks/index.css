@@ -1,0 +1,152 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-card {
+  width: 40%;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #131213;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #f3aa4e;
+  font-weight: normal;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.label-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #f1f5f9;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.input-style {
+  height: 46px;
+  background-color: #f1f5f9;
+  border: 0 solid;
+  border-radius: 2px;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.add-task-button {
+  height: 48px;
+  width: 120px;
+  align-self: center;
+  margin-top: 25px;
+  background-color: #f3aa4e;
+  border: 0 solid;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f1f5f9;
+}
+
+.right-card {
+  width: 60%;
+  padding: 50px 30px 30px 30px;
+  background-color: #000000;
+  overflow: scroll;
+}
+
+.heading-right-card {
+  font-family: 'Roboto';
+  font-size: 42px;
+  color: #fff;
+}
+
+.unordered-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.button-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  border-radius: 35px;
+  padding: 5px 10px 5px 10px;
+  color: #fff;
+}
+
+.active-button-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  background-color: #f3aa4e;
+  border: 1px solid #f3aa4e;
+  border-radius: 35px;
+  padding: 5px 10px 5px 10px;
+  color: #fff;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.no-tasks-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.list-style {
+  width: 100%;
+  padding: 8px;
+  background-color: #1a171d;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-div-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #f8f8f8;
+  margin: 0;
+}
+
+.tag {
+  font-family: 'Roboto';
+  font-size: 16px;
+  background-color: #f3aa4e;
+  border: 0 solid;
+  border-radius: 25px;
+  color: #323f4b;
+  font-weight: bold;
+  margin: 0;
+  padding: 8px;
+}
